@@ -1,0 +1,588 @@
+article .sounds-interesting {
+    max-width: 250px;
+    float: right;
+    margin: 2em -60px 2em 3em;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: url(../graphics/bg/sounds-interesting.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding: 180px 30px 60px
+}
+
+#contact-illustration {
+    background: url(../graphics/bg/dog.jpg) no-repeat 50% 0 fixed;
+    background-size: cover;
+    padding: 150px 30px
+}
+
+header .nav_wrapper nav a#close_navigation {
+    display: block;
+    content: ' ';
+    position: absolute;
+    background: url(../graphics/ico/close.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 33px;
+    height: 33px;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    text-indent: -9999px;
+    text-align: left
+}
+
+#services-head.cm {
+    background: #2a6875 url(../graphics/services-pattern.png)
+}
+
+#services-list div.centralize .cm-services div.head {
+    background: #2a6875 url(../graphics/services-pattern.png)
+}
+
+#team-box div.centralize a.txt p {
+    background: url(../graphics/ico/wave.png) no-repeat 0 100%;
+    background-size: 134px auto
+}
+
+#story-box div.centralize a.txt p {
+    background: url(../graphics/ico/stars.png) no-repeat 0 100%;
+    background-size: 90px auto
+}
+
+#newsletter .form fieldset div.form_row label.checkbox input:checked+span.tick {
+    background: #fff url(../graphics/ico/tick.png) no-repeat 50% 50%;
+    background-size: 12px auto
+}
+
+#team .h2,
+#team h2 {
+    font-weight: 900;
+    color: #23323e;
+    font-size: 160px;
+    line-height: 1em;
+    text-transform: lowercase;
+    padding: 0 50px 30px;
+    display: inline-block;
+    background: url(../graphics/ico/wave.png) no-repeat 50% 100%;
+    background-size: 134px auto;
+    position: relative;
+    margin: 0 0 10px
+}
+
+#contact-map .map_marker {
+    color: #fff;
+    font-weight: 700;
+    background: url(../graphics/ico/marker.png) no-repeat 50% 0;
+    background-size: 31px auto;
+    padding: 50px 0 0;
+    width: 100px;
+    text-align: center
+}
+
+#contact div.centralize div.lt div.col .h2 i.ico.ico-usa,
+#contact div.centralize div.lt div.col h2 i.ico.ico-usa {
+    background: url(../graphics/ico/usa.png) no-repeat 50% 50%;
+    width: 91px;
+    background-size: contain
+}
+
+#contact div.centralize div.lt div.col .h2 i.ico.ico-poland,
+#contact div.centralize div.lt div.col h2 i.ico.ico-poland {
+    background: url(../graphics/ico/poland.png) no-repeat 50% 50%;
+    width: 56px;
+    background-size: contain
+}
+
+#contact-illustration .h2,
+#contact-illustration h2 {
+    font-weight: 900;
+    color: #23323e;
+    font-size: 150px;
+    line-height: 1em;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+    background: url(../graphics/ico/stars.png) no-repeat 50% 100%;
+    background-size: 90px auto
+}
+
+#about .about-section.about1 .h2,
+#about .about-section.about1 h2 {
+    padding-left: 220px;
+    background: url(../graphics/ico/stars.png) no-repeat 0 50%;
+    background-size: 90px auto
+}
+
+#about .about-section.about2 .h2,
+#about .about-section.about2 h2 {
+    padding-left: 30px;
+    background: url(../graphics/ico/diamonds.png) no-repeat 80% 55%;
+    background-size: 50px auto
+}
+
+#about .about-section.about3 .h2,
+#about .about-section.about3 h2 {
+    padding-left: 30px;
+    background: url(../graphics/ico/wave1.png) no-repeat 80% 55%;
+    background-size: 113px auto
+}
+
+header .nav_wrapper a#menu_trigger {
+    display: inline-block;
+    width: 79px;
+    height: 79px;
+    text-align: left;
+    text-indent: -9999px;
+    background: url(../graphics/ico/menu.png) no-repeat 50% 50%;
+    background-size: 38px auto;
+    margin-right: -20px
+}
+
+header .nav_wrapper a#menu_trigger {
+    background-image: url(../graphics/ico/menu1.png)
+}
+
+header .nav_wrapper nav:before {
+    width: 210px;
+    height: 50px;
+    top: 27px;
+    margin-left: 0;
+    left: 10%;
+    background-image: url(../graphics/logo-elephate-black.svg)
+}
+
+.ico.ico-comment {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url(../graphics/ico/comment.svg) no-repeat 50% 50%;
+    background-size: contain;
+    margin-right: 3px;
+    vertical-align: -10%
+}
+
+.links i.ico-mouse {
+    background: url(../graphics/ico/mouse-black.svg) no-repeat 50% 50%;
+    background-size: contain;
+    width: 25px
+}
+
+.links i.ico-docs {
+    background: url(../graphics/ico/services-black.svg) no-repeat 50% 50%;
+    background-size: contain;
+    width: 30px
+}
+
+a.go_back span i {
+    background: url(../graphics/ico/arrow-left-black.svg) no-repeat 5px 50%;
+    background-size: auto 17px;
+    display: inline-block;
+    width: 35px;
+    height: 1em;
+    vertical-align: -20%;
+    -webkit-transition: all .2s cubic-bezier(.42, 0, .58, 1);
+    -moz-transition: all .2s cubic-bezier(.42, 0, .58, 1);
+    -o-transition: all .2s cubic-bezier(.42, 0, .58, 1);
+    transition: all .2s cubic-bezier(.42, 0, .58, 1)
+}
+
+header .headline a.close {
+    background: url(../graphics/ico/close-white.svg) no-repeat 50% 50%;
+    background-size: 22px auto;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    right: 10%;
+    text-indent: -9999px
+}
+
+
+
+header .nav_wrapper nav:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    background: url(../graphics/logo-elephate-gold.svg) no-repeat 0 50%;
+    background-size: contain;
+    width: 270px;
+    height: 50px;
+    top: 50px;
+    margin-left: -74px;
+    left: 20%
+}
+
+#our-agency-do {
+    background: #0d161d url(../graphics/circle.svg) no-repeat 50% 45%;
+    background-size: cover;
+    color: #fff
+}
+
+#our-agency-do div.centralize ul {
+    background: url(../graphics/elephate-ico-gold.svg) no-repeat 50% 50%;
+    background-size: 138px auto;
+    font-size: 0
+}
+
+footer .foot1 div.social ul li.fb a {
+    width: 15px;
+    background-image: url(../graphics/ico/social/grey/facebook.svg)
+}
+
+footer .foot1 div.social ul li.fb a:hover {
+    background-image: url(../graphics/ico/social/gold/facebook.svg)
+}
+
+footer .foot1 div.social ul li.tw a {
+    background-image: url(../graphics/ico/social/grey/twitter.svg)
+}
+
+footer .foot1 div.social ul li.tw a:hover {
+    background-image: url(../graphics/ico/social/gold/twitter.svg)
+}
+
+footer .foot1 div.social ul li.gp a {
+    background-image: url(../graphics/ico/social/grey/googleplus.svg)
+}
+
+footer .foot1 div.social ul li.gp a:hover {
+    background-image: url(../graphics/ico/social/gold/googleplus.svg)
+}
+
+footer .foot1 div.social ul li.in a {
+    background-image: url(../graphics/ico/social/grey/linkedin.svg)
+}
+
+footer .foot1 div.social ul li.in a:hover {
+    background-image: url(../graphics/ico/social/gold/linkedin.svg)
+}
+
+footer .foot1 div.social ul li.pi a {
+    background-image: url(../graphics/ico/social/grey/pintrest.svg)
+}
+
+footer .foot1 div.social ul li.pi a:hover {
+    background-image: url(../graphics/ico/social/gold/pintrest.svg)
+}
+
+footer .foot1 div.social ul li.rss a {
+    background-image: url(../graphics/ico/social/grey/rss.svg);
+    background-size: 13px auto
+}
+
+footer .foot1 div.social ul li.rss a:hover {
+    background-image: url(../graphics/ico/social/gold/rss.svg)
+}
+
+footer .foot1 a.tweet:after,
+footer .foot1 div.tweet:after {
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    background: url(../graphics/ico/social/twitter-blue.svg) no-repeat 50% 50%;
+    background-size: contain
+}
+
+#blog-content div.centralize .our-recommendation div.box div.inner_box a.btn:before,
+#cs-content div.centralize .our-recommendation div.box div.inner_box a.btn:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(../graphics/ico/paper-plane.svg) no-repeat 50% 50%;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    margin-top: -13px
+}
+
+#blog-content div.centralize .author-see-more>a p,
+#cs-content div.centralize .author-see-more>a p {
+    padding-left: 35px;
+    background: url(../graphics/ico/book.svg) no-repeat 0 50%;
+    background-size: 20px auto;
+    display: inline-block
+}
+
+#social-share ul li.fb a {
+    background-image: url(../graphics/ico/social/border/facebook.svg)
+}
+
+#social-share ul li.fb a:hover {
+    background-image: url(../graphics/ico/social/white/facebook.svg);
+    background-color: #3b5998;
+    border-color: #3b5998
+}
+
+#social-share ul li.tw a {
+    background-image: url(../graphics/ico/social/border/twitter.svg)
+}
+
+#social-share ul li.tw a:hover {
+    background-image: url(../graphics/ico/social/white/twitter.svg);
+    background-color: #1dcaff;
+    border-color: #1dcaff
+}
+
+#social-share ul li.gp a {
+    background-image: url(../graphics/ico/social/border/googleplus.svg)
+}
+
+#social-share ul li.gp a:hover {
+    background-image: url(../graphics/ico/social/white/googleplus.svg);
+    background-color: #d34836;
+    border-color: #d34836
+}
+
+#social-share ul li.in a {
+    background-image: url(../graphics/ico/social/border/linkedin.svg)
+}
+
+#social-share ul li.in a:hover {
+    background-image: url(../graphics/ico/social/white/linkedin.svg);
+    background-color: #0077b5;
+    border-color: #0077b5
+}
+
+#social-share ul li.pi a {
+    background-image: url(../graphics/ico/social/border/pintrest.svg)
+}
+
+#social-share ul li.pi a:hover {
+    background-image: url(../graphics/ico/social/white/pintrest.svg);
+    background-color: #bd081c;
+    border-color: #bd081c
+}
+
+.did-you-like ul li.fb a {
+    background-image: url(../graphics/ico/social/gold/facebook.svg)
+}
+
+.did-you-like ul li.fb a:hover {
+    background-image: url(../graphics/ico/social/white/facebook.svg);
+    background-color: #3b5998;
+    border-color: #3b5998
+}
+
+.did-you-like ul li.tw a {
+    background-image: url(../graphics/ico/social/gold/twitter.svg)
+}
+
+.did-you-like ul li.tw a:hover {
+    background-image: url(../graphics/ico/social/white/twitter.svg);
+    background-color: #1dcaff;
+    border-color: #1dcaff
+}
+
+.did-you-like ul li.gp a {
+    background-image: url(../graphics/ico/social/gold/googleplus.svg)
+}
+
+.did-you-like ul li.gp a:hover {
+    background-image: url(../graphics/ico/social/white/googleplus.svg);
+    background-color: #d34836;
+    border-color: #d34836
+}
+
+.did-you-like ul li.in a {
+    background-image: url(../graphics/ico/social/gold/linkedin.svg)
+}
+
+.did-you-like ul li.in a:hover {
+    background-image: url(../graphics/ico/social/white/linkedin.svg);
+    background-color: #0077b5;
+    border-color: #0077b5
+}
+
+.did-you-like ul li.pi a {
+    background-image: url(../graphics/ico/social/gold/pintrest.svg)
+}
+
+.did-you-like ul li.pi a:hover {
+    background-image: url(../graphics/ico/social/white/pintrest.svg);
+    background-color: #bd081c;
+    border-color: #bd081c
+}
+
+#services-head.cm div.centralize .h1 i.ico-mouse,
+#services-head.cm div.centralize h1 i.ico-mouse,
+#services-head.seo div.centralize .h1 i.ico-mouse,
+#services-head.seo div.centralize h1 i.ico-mouse {
+    background: url(../graphics/ico/mouse-large-white.svg) no-repeat 50% 50%;
+    background-size: contain;
+    width: 45px;
+    height: 78px;
+    margin-top: -43px
+}
+
+#services-head.cm div.centralize .h1 i.ico-docs,
+#services-head.cm div.centralize h1 i.ico-docs,
+#services-head.seo div.centralize .h1 i.ico-docs,
+#services-head.seo div.centralize h1 i.ico-docs {
+    background: url(../graphics/ico/services-white.svg) no-repeat 50% 50%;
+    background-size: contain;
+    width: 60px;
+    left: -5px;
+    height: 60px;
+    margin-top: -27px
+}
+
+#services-head.seo {
+    background: #a81513 url(../graphics/circle1.svg) no-repeat 50% 80%;
+    background-size: 1200px auto
+}
+
+#services-list div.centralize .seo-services div.head {
+    background: #a81513 url(../graphics/circle1.svg) no-repeat 20% 50%;
+    background-size: 1500px auto
+}
+
+
+#services-list div.centralize .seo-services div.head .h2 i.ico-mouse,
+#services-list div.centralize .seo-services div.head h2 i.ico-mouse {
+    background: url(../graphics/ico/mouse-large-white.svg) no-repeat 50% 0;
+    background-size: contain;
+    width: 148px;
+    height: 300px;
+    position: absolute;
+    left: 24px;
+    top: 67%
+}
+
+#services-list div.centralize .cm-services div.head .h2 i.ico-docs,
+#services-list div.centralize .cm-services div.head h2 i.ico-docs {
+    background: url(../graphics/ico/services-white.svg) no-repeat 50% 50%;
+    background-size: contain;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 170px;
+    height: 250px
+}
+
+#blog-author>div.centralize p,
+#blog-category>div.centralize p {
+    padding-left: 35px;
+    background: url(../graphics/ico/book-grey.svg) no-repeat 0 50%;
+    background-size: 20px auto
+}
+
+#team ul li a.join-us>div .h4,
+#team ul li a.join-us>div h4 {
+    font-weight: 700;
+    padding: 60px 0 30px;
+    background: url(../graphics/ico/glasses.svg) no-repeat 50% 0;
+    background-size: 86px auto
+}
+
+#article-popup a.close {
+    width: 60px;
+    height: 60px;
+    background: #142029 url(../graphics/ico/close-popup.svg) no-repeat 50% 50%;
+    background-size: 23px auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-indent: -9999px
+}
+
+#team-popup a.close {
+    width: 23px;
+    height: 23px;
+    background: url(../graphics/ico/close-popup.svg) no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-indent: -9999px
+}
+
+#team-popup:after {
+    display: block;
+    content: ' ';
+    position: absolute;
+    background: url(../graphics/elephate-ico-gold.svg) no-repeat 50% 50%;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    left: 25px;
+    bottom: 25px
+}
+
+#team-popup .rt a.see-all-articles {
+    left: 220px;
+    bottom: 35px;
+    position: absolute;
+    color: #c0aa6e;
+    font-size: 16px;
+    padding-left: 30px;
+    background: url(../graphics/ico/book.svg) no-repeat 0 50%;
+    background-size: 20px auto
+}
+
+#contact div.centralize div.rt fieldset button:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    background: url(../graphics/ico/paper-plane-black.svg) no-repeat 50% 50%;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    margin-top: -9px
+}
+
+#contact div.centralize div.rt fieldset button:hover:before {
+    background-image: url(../graphics/ico/paper-plane-white.svg)
+}
+
+#contact div.centralize div.rt .thanks a:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: url(../graphics/ico/paper-plane-black.svg) no-repeat 50% 50%;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    margin-top: -9px
+}
+
+#about .about-section.about4 .h2,
+#about .about-section.about4 h2 {
+    background: url(../graphics/ico/flag.svg) no-repeat 50% 0;
+    background-size: 51px auto
+}
+
+#about .about-section.about5 .h2,
+#about .about-section.about5 h2 {
+    background: url(../graphics/ico/rays.svg) no-repeat 50% 0;
+    background-size: 100px auto
+}
+
+#about .about-section.about7 .h2,
+#about .about-section.about7 h2 {
+    background: url(../graphics/ico/glasses.svg) no-repeat 50% 100%;
+    background-size: 86px auto;
+    padding: 0 30px 50px;
+    margin: 0 0 10px;
+    display: inline-block
+}
+
+header .nav_wrapper a#contact_header {
+    display: inline-block;
+    width: 69px;
+    height: 79px;
+    text-align: left;
+    text-indent: -9999px;
+    background: url(../graphics/ico/paper-plane-grey.svg) no-repeat 50% 50%;
+    background-size: 32px auto
+}
