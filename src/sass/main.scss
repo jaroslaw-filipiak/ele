@@ -897,13 +897,13 @@ header {
   .btn-read-more {
     font-family: 'Proxima Nova Semibold';
     display: block;
-    padding: 24px 0px 48px 0px;
+    margin: 24px 0px 48px 0px;
     color: #c0aa6e;
     font-size: 14px;
     line-height: 17px;
 
     @include xl-min {
-      padding: 24px 0px 80px 0px;
+      margin: 24px 0px 80px 0px;
     }
 
     &::before {
