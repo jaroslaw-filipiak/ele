@@ -9,19 +9,20 @@ const $ = require('jquery');
 //
 // =======================================
 
-if ($(window).width() < 960) {
+
+
+if ($(window).width() < 768) {
   accordion();
 } else {
 
 }
 
 $(window).resize(function () {
-  if ($(window).width() < 960) {
+  if ($(window).width() < 768) {
     accordion();
-  } else {
-
-  }
+  } else {}
 });
+
 
 
 function accordion() {

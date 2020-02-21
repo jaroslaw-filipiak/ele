@@ -259,18 +259,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     @include md-min {
       justify-content: flex-start;
     }
 
-    img {
-      border: 1px solid transparent;
-      max-width: 50%;
+    div {
+      width: 40%;
       padding: 20px 0px;
 
       @include md-min {
+        width: auto;
         max-width: 190px;
         padding: 20px 30px;
       }
@@ -320,6 +320,11 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 35px;
+
+    div {
+      width: 45%;
+    }
 
     @include xl-min {
       max-width: 600px;
@@ -463,7 +468,7 @@ header {
   ul {
     li {
       .how-we-work-list__title {
-        padding: 35px 0px;
+        padding: 40px 0px 18px 0px;
         font-family: 'Proxima Nova Semibold';
         font-size: 18px;
         line-height: 27px;
@@ -595,22 +600,54 @@ header {
 
   .our-blog-items {
     margin-top: 20px;
+    transition: all .1s ease-in;
 
     @include md-min {
       display: flex;
-      align-items: flex-start;
+      align-items: stretch;
       justify-content: space-between;
     }
 
     .our-blog-item {
+      background: #fff;
+      margin-top: 20px;
+
       @include md-min {
         width: 47%;
+      }
+
+      &:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+
+        figure img {
+          transform: scale(1.05);
+        }
+
+        h4 {
+          transition: all .1s ease-in;
+          color: #c0aa6e;
+        }
       }
 
       img {
         max-width: 100%;
         height: auto;
-        margin: 20px 0px;
+
+      }
+
+      figure {
+        margin-bottom: 20px;
+
+        div {
+          display: flex;
+          overflow: hidden;
+
+          img {
+            transition: all .1s ease-in;
+          }
+        }
+
+
       }
 
       .tags,
@@ -622,6 +659,16 @@ header {
 
         @include xl-min {
           margin: 0;
+        }
+      }
+
+      .tags,
+      .title,
+      .post-date {
+        padding: 0px 15px;
+
+        @include md-min {
+          padding: 0px 30px;
         }
       }
 
@@ -689,6 +736,8 @@ header {
     position: absolute;
     top: -123px;
     right: 0;
+
+    box-shadow: 4px 10px 26px 0px rgba(0, 0, 0, 0.55);
 
     @include md-min {
       right: 35px;
@@ -811,7 +860,7 @@ header {
   }
 
   .breadcrumbs {
-    padding: 15px 0px;
+    padding: 11px 0px 15px 0px;
 
     @include xl-min {
       margin-top: 120px;
@@ -971,7 +1020,7 @@ header {
         right: 1px;
         transition: all .2s ease-in;
 
-        @include md-min {
+        @include xl-min {
           display: none;
         }
       }
@@ -1016,6 +1065,8 @@ header {
     .contact-box-icon {
       right: 0 !important;
       top: -123px !important;
+
+
 
       @include xl-min {
 
