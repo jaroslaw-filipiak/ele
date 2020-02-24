@@ -26,13 +26,29 @@ $(document).ready(function () {
 //   accordonContent.show();
 // }
 
+// $(window).resize(function () {
+//   if ($(window).width() < 768) {
+//     var accordonContent = $('.excerpt');
+//     accordonContent.hide();
+//   } else {
+//     var accordonContent = $('.excerpt');
+//     accordonContent.show();
+//   }
+// });
+
+var width = $(window).width();
 $(window).resize(function () {
-  if ($(window).width() < 768) {
-    var accordonContent = $('.excerpt');
-    accordonContent.hide();
-  } else {
-    var accordonContent = $('.excerpt');
-    accordonContent.show();
+  if ($(window).width() != width) {
+    width = $(window).width();
+
+    if ($(window).width() < 768) {
+      var accordonContent = $('.excerpt');
+      accordonContent.hide();
+    } else {
+      var accordonContent = $('.excerpt');
+      accordonContent.show();
+    }
+
   }
 });
 
