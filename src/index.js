@@ -26,9 +26,13 @@ $(window).resize(function () {
   }
 });
 
+
 var title = $('.our-services--item h3');
 
 title.click(function () {
+
+
+
   var excerpt = $(this).next('.excerpt'),
     isVisible = excerpt.is(':visible');
 
