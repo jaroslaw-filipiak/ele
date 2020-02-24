@@ -984,6 +984,10 @@ header {
     line-height: 27px;
     color: #333333;
     margin: 22px 0px;
+
+    @include lg-min {
+      pointer-events: none;
+    }
   }
 
   p {

@@ -7,25 +7,24 @@ const $ = require('jquery');
 // ACCORDIONS OUR SERVICES PAGE
 //
 // =======================================
+
 $(document).ready(function () {
   if ($(window).width() < 768) {
     var accordonContent = $('.excerpt');
     accordonContent.hide();
   } else {
-    console.log('show desktop')
     var accordonContent = $('.excerpt');
     accordonContent.show();
   }
 })
 
-if ($(window).width() < 768) {
-  var accordonContent = $('.excerpt');
-  accordonContent.hide();
-} else {
-  console.log('show desktop')
-  var accordonContent = $('.excerpt');
-  accordonContent.show();
-}
+// if ($(window).width() < 768) {
+//   var accordonContent = $('.excerpt');
+//   accordonContent.hide();
+// } else {
+//   var accordonContent = $('.excerpt');
+//   accordonContent.show();
+// }
 
 $(window).resize(function () {
   if ($(window).width() < 768) {
