@@ -36,7 +36,7 @@ function accordion() {
       isVisible = excerpt.is(':visible');
 
     title.removeClass('accordion__active');
-    accordonContent.stop().slideUp(300);
+    // accordonContent.stop().slideUp(300);
 
     $(this).toggleClass('accordion__active', !isVisible);
 
@@ -44,12 +44,12 @@ function accordion() {
       $(this)
         .next(excerpt)
         // .stop()
-        .slideDown(300);
+        .slideDown();
     } else {
       $(this)
         .next(excerpt)
         // .stop()
-        .slideUp(300);
+        .slideUp();
     }
   });
 }
