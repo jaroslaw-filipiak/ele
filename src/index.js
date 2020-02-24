@@ -10,7 +10,6 @@ const $ = require('jquery');
 // =======================================
 
 
-
 if ($(window).width() < 768) {
   accordion();
 } else {
@@ -22,7 +21,6 @@ $(window).resize(function () {
     accordion();
   } else {}
 });
-
 
 
 function accordion() {
@@ -45,12 +43,12 @@ function accordion() {
     if (!isVisible) {
       $(this)
         .next(excerpt)
-        .stop()
+        // .stop()
         .slideDown(300);
     } else {
       $(this)
         .next(excerpt)
-        .stop()
+        // .stop()
         .slideUp(300);
     }
   });
